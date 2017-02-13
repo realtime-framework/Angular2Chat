@@ -1,0 +1,14 @@
+<h1>
+  Simple Realtime chat using Angular2
+</h1>
+
+<ul>
+    <li *ngFor="let message of messages">{{message}}</li>
+</ul>
+
+<form (ngSubmit)="sendMessage()">
+    <input type="text" class="messageText" name="messageText" 
+        [(ngModel)]="messageText" placeholder="Type your message here" />
+
+    <button>Send message</button>
+</form>
