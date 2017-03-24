@@ -1,4 +1,4 @@
-# Realtime Messaging Simple Chat using Angular2
+# Realtime Messaging Simple Chat using Angular2+
 
 Part of the [The Realtime® Framework](http://framework.realtime.co), Realtime Cloud Messaging (aka ORTC) is a secure, fast and highly scalable cloud-hosted Pub/Sub real-time message broker for web and mobile apps.
 
@@ -9,7 +9,7 @@ This examples provides a very simple chat using the Realtime Messaging JavaScrip
 
 Enter a message in the input field and it will be broadcasted to all other windows running the example.
 
-The Angular2 project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+The Angular project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
 We have simply added the `realtime-messaging` module dependency in the package.json file:
 
